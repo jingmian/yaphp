@@ -273,7 +273,7 @@ __DIR__=$(cd "$(dirname "$0")" || exit 1; pwd); [ -z "${__DIR__}" ] && exit 1
 [100%] Built target yaphp
 ```
 
-现在，你将会在目录`build`下面看到编译好的`yaphp`。
+现在，你将会在目录`build`下面看到编译好的`yaphp`。并且，细心的话，你会发现，在目录`src/Zend`下面，生成了文件`zend_language_scanner.cc`、`zend_language_parser.h`、`zend_language_parser.cc`。
 
 现在，让我们执行这个`yaphp`：
 
